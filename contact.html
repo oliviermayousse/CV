@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/styles4.css">
+
+	<title>Olivier Mayousse</title>
+</head>
+
+<body>
+	<<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-lg-2">
+				<header>
+					<div class="pictures">
+						<img src="image/olivier_cv.jpg" alt="Olivier Mayousse">
+					</div>
+					<div class="name">
+						<h2>olivier mayousse</h2>
+						<h3>technicien développeur</h3>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="cv_olivier.html">mon CV</a></li>
+							<li><a href="hobby.html">mes hobby</a></li>
+							<li><a href="pitch.html">vidéo</a></li>
+							<li><a href="contact.html">contact</a></li>
+						</ul>
+					</nav>
+					<div class="contact">
+						<p><img src="image/tel.png" alt="Télephone">
+							06 75 13 06 67 </p>
+						<p><img src="image/mail.png" alt="Mail">
+							olivier.mayousse@gmail.com </p>
+						<p><img src="image/adresse.png" alt="Adresse">
+							71 rue de Léouzée le bas <br> 07800 st laurent du pape </p>
+					</div>
+				</header>
+			</div>
+			<div class="col-12 col-lg-10">
+				<main>
+					<section>
+						<h1>contact</h1>
+						<form method="post" action="https://httpbin.org/post">
+							<p>
+								<label for="civilite">civilité : </label>
+								<select name="civilite" id="civilite">
+									<option value="madame">madame</option>
+									<option value="monsieur">monsieur</option>
+								</select>
+							</p>
+							<p>
+								<label for="nom">nom et prenom : </label>
+								<input type="text" name="nom" id="nom" required />
+							</p>
+							<p>
+								<label for="mail">votre email : </label>
+								<input type="email" name="mail" id="mail" />
+							</p>
+							<p>
+								<label for="message">votre message :</label>
+								<textarea name="message" id="message"></textarea>
+							</p>
+							<p>
+								motif de votre message :
+								<input type="radio" name="motif" value="cv" id="cv" />
+								<label for="cv">en savoir plus sur mon cv</label>
+								<input type="radio" name="motif" value="autre" id="autre" />
+								<label for="autre">autre motif</label>
+							</p>
+							<input type="submit" value="envoyer" />
+						</form>
+					</section>
+				</main>
+				<footer class="row">
+					<div class="col-12 col-md-7">
+						<nav>
+							<ul>
+								<li><a href="cv_olivier.html">mon CV</a></li>
+								<li><a href="hobby.html">mes hobby</a></li>
+								<li><a href="pitch.html">vidéo</a></li>
+								<li><a href="contact.html">contact</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-12 col-md-5">
+						<img src="image/campus.png" alt="Logo Campus" />
+					</div>
+				</footer>
+			</div>
+		</div>
+</body>
+
+</html>
